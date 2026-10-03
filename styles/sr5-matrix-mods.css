@@ -1,0 +1,10 @@
+/* Programmatically hidden elements that must stay in the DOM */
+.sr5cui-hidden { display: none !important; }
+.sr5cui-hidden-from-players { opacity: 0.5; }
+.sr5cui-off-grid { opacity: 0.5; }
+.sr5cui-hidden-from-players.sr5cui-running-silent { opacity: 0.8; }
+.sr5cui-off-grid.sr5cui-running-silent { opacity: 0.5; }
+.sr5cui-running-silent > .list-item { border-inline-start: 4px dashed #ff00dd; }
+
+.sr5cui-duplicate-device { display: none !important; }
+.sr5cui-device-mode .matrix-icon-col label { font-style: italic; }
